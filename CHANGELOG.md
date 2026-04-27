@@ -38,3 +38,7 @@
 ### Added
 - Calculo del porcentaje de infracciones con fecha invalida (1932-01-01).
 - Calculo del porcentaje de infracciones con hora invalida (00:00).
+
+## [Sprint 1] - Punto 07
+### Added
+- Redaccion de la conclusion del analisis en README.md.
