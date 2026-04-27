@@ -33,3 +33,8 @@
 - Metodo exceso_promedio: exceso medio como % sobre velocidad maxima.
 - Metodo exceso_real_promedio: exceso medio en km/h.
 - Metodo multas_por_ubicacion: conteo de multas por ubicacion.
+
+## [Sprint 1] - Punto 06
+### Added
+- Calculo del porcentaje de infracciones con fecha invalida (1932-01-01).
+- Calculo del porcentaje de infracciones con hora invalida (00:00).
