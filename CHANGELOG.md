@@ -11,3 +11,16 @@
 ### Added
 - Descarga del dataset raw en urban_flow/data/raw/.
 - Analisis exploratorio: primeras filas, tipos de datos y valores nulos.
+
+## [Sprint 1] - Ejercicio 03
+### Added
+- Normalizacion de fechas al formato YYYY-MM-DD (invalidas -> 1932-01-01).
+- Normalizacion de horas al formato HH:MM 24hs (invalidas -> 00:00).
+- Normalizacion de ubicaciones: mayusculas y limpieza de caracteres especiales.
+- Normalizacion de patentes: formato estandar (invalidas -> NA).
+- Eliminacion de filas con nulos en columnas relevantes.
+- Eliminacion de outliers por metodo IQR en velocidad_registrada.
+- Calculo de exceso_velocidad_real (diferencia simple).
+- Calculo de exceso_velocidad (diferencia con tolerancia del 5%).
+- Filtrado de registros sin infraccion real.
+- Guardado del dataset limpio en urban_flow/data/interim/speeding_fines.csv.
